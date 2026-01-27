@@ -214,7 +214,7 @@ const CardForm = () => {
 
             <Card className="bg-gray-800 w-full mb-4">
               <CardHeader className="font-bold text-xl">
-                <h2>Analisis Hari ({data.data.analisis_hari.hari})</h2>
+                <h2>Analisis Hari</h2>
               </CardHeader>
               <CardBody>
                 <p className="text-sm text-gray-400 mb-2">Sifat:</p>
@@ -249,7 +249,7 @@ const CardForm = () => {
 
             <Card className="bg-gray-800 w-full mb-4">
               <CardHeader className="font-bold text-xl">
-                <h2>Numerologi: {data.data.numerologi.angka}</h2>
+                <h2>Numerologi</h2>
               </CardHeader>
               <CardBody>
                 <p className="text-sm text-gray-300">
