@@ -107,7 +107,7 @@ export const Navbar = () => {
       </NavbarContent>
 
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-        <Link isExternal aria-label="Github" href={siteConfig.links.github}>
+        <Link isExternal aria-label="Github" href={'https://github.com/llang-1'}>
           <GithubIcon className="text-default-500" />
         </Link>
         {/* <ThemeSwitch /> */}
