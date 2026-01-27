@@ -32,6 +32,7 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang="en">
       <head />
+      <script src="https://pl28579497.effectivegatecpm.com/6d/0a/fd/6d0afdd93cb4faa1ff1186d5e39f09ae.js"></script>
       <body
         className={clsx(
           "min-h-screen text-foreground bg-gray-900 font-sans antialiased ",
