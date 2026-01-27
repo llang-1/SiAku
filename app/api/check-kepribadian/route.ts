@@ -3,7 +3,7 @@ import 'dotenv/config';
 import { NextRequest, NextResponse } from 'next/server';
 
 const ai = new GoogleGenAI({
-    apiKey: "AIzaSyB-rmbav9Ck4ozKtOJGhkphrEP17veFysQ"
+    apiKey: process.env.APIKEY_GEMINI
 })
 
 const personalitySchema = {
