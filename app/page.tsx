@@ -148,6 +148,7 @@ const CardForm = () => {
         </div>
         <div className="mb-4">
           <DatePicker
+            isRequired
             onChange={setBirth}
             value={birth}
             className="max-w-[284px]"
