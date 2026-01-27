@@ -139,7 +139,7 @@ const CardForm = () => {
           <Input
             isClearable
             isRequired
-            label="Organization Name"
+            label="nama lengkap"
             maxLength={50}
             name="orgName"
             value={name}
