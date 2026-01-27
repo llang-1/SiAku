@@ -167,7 +167,7 @@ const CardForm = () => {
       {data && (
         <>
           <section className="flex flex-col items-start mt-4 w-full">
-            {/* Profil Umum */}
+            
             <Card className="bg-gray-800 w-full mb-4">
               <CardHeader className="font-bold text-xl">
                 <h2>Profil Umum</h2>
@@ -182,7 +182,7 @@ const CardForm = () => {
               </CardBody>
             </Card>
 
-            {/* Analisis Nama */}
+
             <Card className="bg-gray-800 w-full mb-4">
               <CardHeader className="font-bold text-xl">
                 <h2>Analisis Nama</h2>
@@ -211,7 +211,6 @@ const CardForm = () => {
               </CardBody>
             </Card>
 
-            {/* Analisis Hari */}
             <Card className="bg-gray-800 w-full mb-4">
               <CardHeader className="font-bold text-xl">
                 <h2>Analisis Hari ({data.data.analisis_hari.hari})</h2>
@@ -247,7 +246,6 @@ const CardForm = () => {
               </CardBody>
             </Card>
 
-            {/* Numerologi */}
             <Card className="bg-gray-800 w-full mb-4">
               <CardHeader className="font-bold text-xl">
                 <h2>Numerologi: {data.data.numerologi.angka}</h2>
@@ -259,7 +257,6 @@ const CardForm = () => {
               </CardBody>
             </Card>
 
-            {/* Rekomendasi */}
             <Card className="bg-gray-800 w-full mb-4">
               <CardHeader className="font-bold text-xl">
                 <h2>Rekomendasi</h2>
