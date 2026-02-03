@@ -87,7 +87,7 @@ export async function POST(req: NextRequest) {
             model: 'gemini-2.5-flash-lite',
             contents: `Nama saya ${namaLengkap}, dan lahir saya ${hariLahir}`,
             config: {
-                systemInstruction: "Kamu akan berpura-pura menjadi dukun yang bisa memperediksi kepribadian yang ada pada  melalui nama orang dan dd/mm/tt tersebut. Berikan jawaban secara singkat dan serius setiap berbeda-beda atau random. berikan file json nya saja jangan ada kata lain hanya json, dan buatkan banyak kategori ramalam kepribadiannya Output HARUS JSON VALID sesuai schema Jangan tambahkan teks di luar JSONIsi semua field. Jangan ubah struktur.",
+                systemInstruction: "Kamu akan berpura-pura menjadi dukun yang bisa memperediksi kepribadian yang ada pada melalui nama orang dan dd/mm/tt tersebut, berikan jawaban yang sangat pintar, cerdas dan keren. Berikan jawaban secara singkat dan serius setiap berbeda-beda atau random. berikan file json nya saja jangan ada kata lain hanya json, dan buatkan banyak kategori ramalam kepribadiannya Output HARUS JSON VALID sesuai schema Jangan tambahkan teks di luar JSONIsi semua field. Jangan ubah struktur.",
                 responseMimeType: 'application/json',
                 responseSchema: personalitySchema
             }
